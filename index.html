@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8">
     <title>HeightMap Picker</title>
+    <link rel="icon" href="icons/favicon.png" type="image/gif">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://rawgit.com/rvera/image-picker/master/image-picker/image-picker.min.js"></script>
     <script src="config.js"></script>
+    <link rel="apple-touch-icon" href="https://i.imgur.com/5t3I4r4.png" />
+    <meta name="description" content="Quick mockup of a modern heightmap selector." />
+    <meta property="og:site_name" content="HeightMap Picker" />
+    <meta property="og:image" content="https://i.imgur.com/5t3I4r4.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://n0tmyfaultog.github.io/HeightMap/" />
+    <meta property="og:title" content="HeightMap Picker" />
+    <meta property="og:description" content="Quick mockup of a modern heightmap selector." />
+    <meta name="theme-color" content="#ABD7EB">
+    <meta name="msapplication-TileColor" content="#ABD7EB">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +27,7 @@
     <div id="right">
         <div class="div-pad">
             <h1>Command</h1>
-            <input type="text" id="command" name="command" value='//brush height %image%' onfocusout="updateView()" onkeydown="if(event.keyCode==13){updateView()}">
+            <input type="text" id="command" name="command" value='//brush height 15 %image%' onfocusout="updateView()" onkeydown="if(event.keyCode==13){updateView()}">
         </div>
         <div class="div-pad">
             <h1>Output</h1>
