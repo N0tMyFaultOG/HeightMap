@@ -61,7 +61,6 @@ var images = [
 "Plains 1.png",
 "plains cliff.png",
 "plateau 1.png",
-"plateau 2.png",
 "Plateau 3.png",
 "Plateau.png",
 "pointed cliff 1.png",
